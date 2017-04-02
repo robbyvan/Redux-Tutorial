@@ -1,5 +1,7 @@
 import React from 'react'
+
 import UserList from './../containers/UserList.js'
+import UserDetail from './../containers/UserDetail.js'
 
 require('../../scss/style.scss');
 
@@ -10,6 +12,7 @@ const App = () => {
       <UserList />
       <hr/>
       <h2>User Details</h2>
+      <UserDetail />
     </div>
   )
 };
