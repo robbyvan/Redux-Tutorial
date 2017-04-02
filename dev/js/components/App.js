@@ -1,13 +1,17 @@
 import React from 'react'
+import UserList from './../containers/UserList.js'
 
 require('../../scss/style.scss');
 
-export const App = () => {
+const App = () => {
   return (
     <div>
       <h2>Username List:</h2>
+      <UserList />
       <hr/>
       <h2>User Details</h2>
     </div>
   )
 };
+
+export default App;
